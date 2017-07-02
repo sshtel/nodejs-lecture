@@ -1,0 +1,11 @@
+{
+    "device_id": 2,
+    "sensor":{
+        "temp": 23.3,
+        "humid": 34,
+        "co2": 2341,
+        "voc": 378,
+        "dust": 32
+    }
+    
+}
