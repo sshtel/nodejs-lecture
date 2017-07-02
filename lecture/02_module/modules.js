@@ -8,3 +8,5 @@ var func2 = function() {
 
 module.exports.func1 = func1;
 module.exports.func2 = func2;
+module.exports.str1 = "String value"
+module.exports.number1 = 1;
