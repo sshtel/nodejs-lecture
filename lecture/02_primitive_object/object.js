@@ -1,9 +1,9 @@
-//value
+//primitive values
 const value1 = 1;
 var   value2 = 1;
 
 
-
+//object
 var person = {
   firstname : 'Steve',
   lastname: 'Song',
@@ -26,7 +26,7 @@ console.log(person.hey);
 
 
 
-//object
+//constant reference variable is pointing object
 const person2 = {
   firstname : 'Subin',
   lastname: null,
