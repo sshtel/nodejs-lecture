@@ -19,4 +19,3 @@ firstClassFunction(greet);
 (function immediate(param) {
     console.log('Immediate Function call. param : ' + param);
 }('String Parameter'));
-
