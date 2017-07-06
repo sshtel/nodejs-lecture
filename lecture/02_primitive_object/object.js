@@ -1,7 +1,3 @@
-//primitive values
-const value1 = 1;
-var   value2 = 1;
-
 
 //object
 var person = {
