@@ -16,4 +16,4 @@ newObj.hello();
 
 // var newValue = 0;
 // pass_by_ref(newValue);
-// newValue.hello();
+// newValue.hello(); //error

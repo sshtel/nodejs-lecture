@@ -33,3 +33,11 @@ subin.address = "Samcheonpo";
 
 console.log(subin.address);
 console.log(steve.__proto__ === subin.__proto__);
+
+
+
+//Javascript String Object inheritance !!
+String.prototype.hello = function() {
+  console.log('hello ' + this.valueOf());
+}
+"steve".hello();
