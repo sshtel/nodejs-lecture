@@ -20,6 +20,13 @@ var person2 = require('./person.js')
 person2.sayhi();
 
 
+var Person = require('./person_constructor');
+var pObj1 = new Person("Steve");
+pObj1.sayhi();
+var pObj2 = new Person("Subin");
+pObj2.sayhi();
+
+
 //module structure example
 var my_mod = require('./my_module');  //NOT ./my_module/index.js
 my_mod.module1();

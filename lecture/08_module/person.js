@@ -1,5 +1,5 @@
-function Person (name) {
-    this.name = name
+function Person () {
+    this.name = "anonymous"
     this.sayhi = () => {
         console.log('Hi ' + this.name)
     }
