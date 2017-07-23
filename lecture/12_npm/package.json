@@ -1,0 +1,14 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "npm test app",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Steve Song",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
