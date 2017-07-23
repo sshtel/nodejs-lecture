@@ -17,7 +17,6 @@ var person1 = require('./person.js')
 person1.name = "Steve"
 person1.sayhi();
 var person2 = require('./person.js')
-person2.name = "Subin"
 person2.sayhi();
 
 
