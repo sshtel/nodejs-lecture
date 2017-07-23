@@ -19,6 +19,7 @@ Person.prototype.address = "Seoul";
 var steve = new Person('Steve', 'Song');
 
 steve.hello();
+steve.familyName();
 console.log(steve.__proto__);
 console.log(steve.address);
 
