@@ -1,7 +1,7 @@
 
 var Person = {
-    firstname: "",
-    lastname: "",
+    firstname: "Anonymous",
+    lastname: "Family Name",
     sayhi: function() {
         console.log ('Hi ' + this.firstname + ' ' + this.lastname )
     },
@@ -13,6 +13,9 @@ var Person = {
 
 
 var steve = Object.create(Person);
+
+steve.sayhi()
+
 steve.firstname = "Steve"
 steve.lastname = "Song"
 
